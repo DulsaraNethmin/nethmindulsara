@@ -21,21 +21,21 @@ const Header = () => {
 
           <div className='navlink'>
             {/*<ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>*/}
-              <ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>
+              <ul className='link f_flex uppercase'>
               <li>
-                <a href='#home'>home</a>
+                <a href='#home' style={{textDecoration:'none', color:'black'}}>home</a>
               </li>
               <li>
-                <a href='#features'>features</a>
+                <a href='#features'  style={{textDecoration:'none', color:'black'}}>features</a>
               </li>
               <li>
-                <a href='#portfolio'>works</a>
+                <a href='#portfolio'  style={{textDecoration:'none', color:'black'}}>works</a>
               </li>
               <li>
-                <a href='#blog'>blog</a>
+                <a href='#blog'  style={{textDecoration:'none', color:'black'}}>blog</a>
               </li>
               <li>
-                <a href='#contact'>contact</a>
+                <a href='#contact'  style={{textDecoration:'none', color:'black'}}>contact</a>
               </li>
             </ul>
 
