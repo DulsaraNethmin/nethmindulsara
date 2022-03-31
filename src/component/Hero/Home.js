@@ -41,7 +41,7 @@ const Home = () => {
             <div className='hero_btn d_flex'>
               <div className='col_1'>
                 <h4>FIND WITH ME</h4>
-                <div className="row-1">
+                <div className="row-1 mtop_20">
                   <div className='button'>
                   <button className='btn_shadow'>
                     <FaFacebookF/>

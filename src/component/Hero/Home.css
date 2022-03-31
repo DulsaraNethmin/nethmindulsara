@@ -52,14 +52,14 @@
   margin-right: 10%;
 }
 .hero .right {
-  width: 60%;
+  width: 40%;
   position: relative;
 }
 .hero .right_img {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
-  height: 580px;
+  height: 510px;
   width: 510px;
   margin-top: 20%;
 }
@@ -69,7 +69,7 @@
   right: 10%;
   width: 510px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1020px) {
   .hero .right,
   .hero .left {
     width: 100%;
