@@ -70,6 +70,9 @@
   width: 510px;
 }
 @media (max-width: 1020px) {
+  .hero{
+    margin-top: 0;
+  }
   .hero .right,
   .hero .left {
     width: 100%;
