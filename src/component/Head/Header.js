@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import "./header.css"
 import logo from "../pic/logo4.png"
+import { DatePicker } from 'antd'
 
 const Header = () => {
   // fixed Header
@@ -19,8 +20,8 @@ const Header = () => {
           </div>
 
           <div className='navlink'>
-            <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
-              {/*<ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>*/}
+            {/*<ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>*/}
+              <ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>
               <li>
                 <a href='#home'>home</a>
               </li>

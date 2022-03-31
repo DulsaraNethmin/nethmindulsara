@@ -9,6 +9,7 @@ import Blog from "./component/Blog/Blog"
 import Contact from "./component/Contact/Contact"
 import Footer from "./component/Footer"
 import "./App.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
