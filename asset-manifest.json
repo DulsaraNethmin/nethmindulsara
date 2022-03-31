@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/DulsaraNethmin.github.io/nethmindulsara/static/css/main.fb4e2073.css",
+    "main.js": "/DulsaraNethmin.github.io/nethmindulsara/static/js/main.e9add438.js",
+    "static/js/787.9a1bca15.chunk.js": "/DulsaraNethmin.github.io/nethmindulsara/static/js/787.9a1bca15.chunk.js",
+    "static/media/Aphrodate.png": "/DulsaraNethmin.github.io/nethmindulsara/static/media/Aphrodate.d97d86e1b3c13e15517a.png",
+    "static/media/Classic.png": "/DulsaraNethmin.github.io/nethmindulsara/static/media/Classic.804b8cadb41f132c384d.png",
+    "static/media/MedMind.png": "/DulsaraNethmin.github.io/nethmindulsara/static/media/MedMind.04a13f4f6761608bb556.png",
+    "static/media/DocTracker.png": "/DulsaraNethmin.github.io/nethmindulsara/static/media/DocTracker.f2f526a188997c2c0d51.png",
+    "static/media/hero6.png": "/DulsaraNethmin.github.io/nethmindulsara/static/media/hero6.17e43c3e5290635393cd.png",
+    "static/media/spacevillagers.jpeg": "/DulsaraNethmin.github.io/nethmindulsara/static/media/spacevillagers.a6c5b5c76cbc852f50e4.jpeg",
+    "static/media/contact1.png": "/DulsaraNethmin.github.io/nethmindulsara/static/media/contact1.8ddfbfd11798f881db54.png",
+    "static/media/logo4.png": "/DulsaraNethmin.github.io/nethmindulsara/static/media/logo4.14511f1143a69008da4f.png",
+    "index.html": "/DulsaraNethmin.github.io/nethmindulsara/index.html",
+    "main.fb4e2073.css.map": "/DulsaraNethmin.github.io/nethmindulsara/static/css/main.fb4e2073.css.map",
+    "main.e9add438.js.map": "/DulsaraNethmin.github.io/nethmindulsara/static/js/main.e9add438.js.map",
+    "787.9a1bca15.chunk.js.map": "/DulsaraNethmin.github.io/nethmindulsara/static/js/787.9a1bca15.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb4e2073.css",
+    "static/js/main.e9add438.js"
+  ]
+}
