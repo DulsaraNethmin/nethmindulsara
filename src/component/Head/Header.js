@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import "./header.css"
 import logo from "../pic/logo4.png"
-import { DatePicker } from 'antd'
+import {FaTimes,FaBars}from "react-icons/fa";
 
 const Header = () => {
   // fixed Header
@@ -20,8 +20,8 @@ const Header = () => {
           </div>
 
           <div className='navlink'>
-            {/*<ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>*/}
-              <ul className='link f_flex uppercase'>
+            <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
+              {/*<ul className='link f_flex uppercase'>*/}
               <li>
                 <a href='#home' style={{textDecoration:'none', color:'black'}}>home</a>
               </li>
@@ -40,7 +40,7 @@ const Header = () => {
             </ul>
 
             <button className='toggle' onClick={() => setMobile(!Mobile)}>
-              {Mobile ? <i className='fas fa-times close home-btn'></i> : <i className='fas fa-bars open'></i>}
+              {Mobile ? <FaTimes className="close home-btn"/> : <FaBars className="open"/>}
             </button>
           </div>
         </div>
