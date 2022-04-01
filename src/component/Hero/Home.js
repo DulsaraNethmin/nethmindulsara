@@ -43,13 +43,13 @@ const Home = () => {
                 <h4>FIND WITH ME</h4>
                 <div className="row-1 mtop_20">
                   <div className='button'>
-                  <button className='btn_shadow'>
+                  <button className='btn_shadow' onClick={()=>{window.open('https://www.facebook.com/nethmin.dulsara.9/','_blank')}}>
                     <FaFacebookF/>
                   </button>
-                  <button className='btn_shadow'>
+                  <button className='btn_shadow' onClick={()=>{window.open('https://www.linkedin.com/in/nethmin-dulsara-1553671b3/','_blank')}}>
                     <FaLinkedinIn/>
                   </button>
-                  <button className='btn_shadow'>
+                  <button className='btn_shadow' onClick={()=>{window.open('https://twitter.com/nethmin_dulsara','_blank')}}>
                    <FaTwitter/>
                   </button>
                   </div>
