@@ -71,7 +71,7 @@ const Contact = () => {
 
             <div className='right box_shodow'>
               <form onSubmit={formSubmit}>
-                <div className='f_flex'>
+                <div className='d_flex'>
                   <div className='input row'>
                     <span>YOUR NAME</span>
                     <input type='text' name='fullname' value={data.fullname} onChange={InputEvent} />

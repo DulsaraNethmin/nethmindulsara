@@ -41,6 +41,11 @@
   margin-left: 10px;
 }
 @media (max-width: 768px) {
+ .f_flex .input {
+    display:grid;
+    color:green,
+    
+  }
   .Contact .d_flex {
     flex-direction: column;
   }
