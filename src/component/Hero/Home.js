@@ -36,7 +36,9 @@ const Home = () => {
               </span>
             </h2>
 
-            <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
+            <p>Nethmin is currently studying at the University of Moratuwa, Sri Lanka. is interested in new technology trends, and has a hunger for Machine Learning.
+Movie lover, Traveler, and simple human.
+</p>
 
             <div className='hero_btn d_flex'>
               <div className='col_1'>
