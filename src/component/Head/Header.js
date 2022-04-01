@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./header.css"
-import logo from "../pic/logo4.png"
+import logo from "../pic/logo101.png"
 import {FaTimes,FaBars}from "react-icons/fa";
 
 const Header = () => {
