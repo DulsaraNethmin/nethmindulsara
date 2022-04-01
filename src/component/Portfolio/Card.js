@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import {FaTimes,FaThumbsUp,FaChevronRight} from 'react-icons/fa'
+import {FaTimes,FaThumbsUp,FaChevronRight,FaHeart} from 'react-icons/fa'
 
 const Card = (props) => {
   const [modal, setModal] = useState(false)
@@ -17,16 +17,16 @@ const Card = (props) => {
     <>
       <div className='box btn_shadow '>
         <div className='img'>
-          <img src={props.image} alt='' onClick={toggleModal} />
+          <img src={props.image} alt='' onClick={()=>{}} />
         </div>
         <div className='category d_flex'>
-          <span onClick={toggleModal}>{props.category}</span>
+          <span onClick={()=>{}}>{props.category}</span>
           <label>
-            <i className='far fa-heart'></i> {props.totalLike}
+          <FaHeart/> {props.totalLike}
           </label>
         </div>
         <div className='title'>
-          <h2 onClick={toggleModal}>{props.title}</h2>
+          <h2 onClick={()=>{window.open(props.link,'_blank')}}>{props.title}</h2>
           <a href='#popup' className='arrow' onClick={toggleModal}>
             <FaTimes/>
           </a>
@@ -34,7 +34,7 @@ const Card = (props) => {
       </div>
 
       {/* Popup box */}
-      {modal && (
+{/*      {modal && (
         <div className='modal'>
           <div onClick={toggleModal} className='overlay'></div>
           <div className='modal-content d_flex'>
@@ -60,7 +60,7 @@ const Card = (props) => {
             </div>
           </div>
         </div>
-      )}
+      )}*/}
     </>
   )
 }
