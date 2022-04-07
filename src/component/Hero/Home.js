@@ -32,7 +32,7 @@ const Home = () => {
             <h2>
               a
               <span>
-                <Typewriter words={[" Skilled Coder.", " React Developer."," Flutter Developer."," Game Developer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
+                <Typewriter words={[" Skilled Programmer.", " React Developer."," Flutter Developer."," Game Developer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
               </span>
             </h2>
 

@@ -55,6 +55,9 @@ const Resume = () => {
                   }
                 })}
               </div>
+              <div style={{position:'relative',top:'10px'}}>
+          <button className="btn_shadow" style={{position:'absolute',top:'50%',left:'45%'}}>Show More</button>
+          </div>
             </div>
           </div>
         </div>

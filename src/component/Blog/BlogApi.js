@@ -12,7 +12,7 @@ const BlogApi = [
     desc_three: "Nulla non ligula vel nisi blandit egestas vel eget leo. Praesent fringilla dapibus dignissim. Pellentesque quis quam enim. Vestibulum ultrices, leo id suscipit efficitur, odio lorem rhoncus dolor, a facilisis neque mi ut ex. Quisque tempor urna a nisi pretium, a pretium massa tristique. Nullam in aliquam diam. Maecenas at nibh gravida, ornare eros non, commodo ligula. Sed efficitur sollicitudin auctor. Quisque nec imperdiet purus, in ornare odio. Quisque odio felis, vestibulum et.",
   },{
     id: 2,
-    image: "https://miro.medium.com/max/1400/0*9fDrYHGECjYERpkT.png",
+    image: "https://miro.medium.com/max/1400/1*iIPUXfe2A2-Drl-PuUUg3w.png",
     date: "3 Feb, 2021",
     link:"https://baby-code-monk.medium.com/7-thing-you-should-know-as-a-web-developer-aac7b0d19b2",
     title_one: "7 Thing you should know as a web developer",
