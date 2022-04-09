@@ -3,6 +3,7 @@ import medmind from "../pic/MedMind.png"
 import spacevillagers from "../pic/spacevillagers.jpeg"
 import aphrodate from "../pic/Aphrodate.png"
 import virtualguy from "../pic/Classic.png"
+import helsinki from "../pic/Helsinki.gif"
 
 const Portfolio_data = [
   {
@@ -47,10 +48,10 @@ const Portfolio_data = [
   },
   {
     id: 6,
-    category: "WEB DESIGN",
+    category: "WEB Application",
     totalLike: "690",
-    title: "App for tecnology & services",
-    image: "./image/portfolio-06.jpg",
+    title: "Helsinki - A puzzel app",
+    image: helsinki,
     link:''
   },
 ]

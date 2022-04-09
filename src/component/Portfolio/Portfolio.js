@@ -21,7 +21,7 @@ const Portfolio = () => {
                 return <Card key={index} image={value.image} category={value.category} totalLike={value.totalLike} title={value.title} link={value.link} />
               }
               else{
-                if(index<3){
+                if(index<6){
                   return <Card key={index} image={value.image} category={value.category} totalLike={value.totalLike} title={value.title} link={value.link} />
                 }
                 return null
