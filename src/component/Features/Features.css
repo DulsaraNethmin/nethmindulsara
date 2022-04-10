@@ -21,3 +21,24 @@
   color: white;
   opacity: 1;
 }
+
+
+@media(max-width:750px){
+  .content{
+    display: grid;
+    grid-template-rows: 1fr 1fr
+  }
+  .box1{
+    display: grid;
+    height: 180px;
+    margin-left: 25%;
+    width: 200px;
+    font-size: 2;
+  }
+  #card_desc{
+    display: none;
+  }
+  #card_title{
+    font-size: medium;
+  }
+}
