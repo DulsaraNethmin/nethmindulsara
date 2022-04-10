@@ -13,9 +13,9 @@ const Navbar = () => {
   // Toogle Menu
   const [Mobile, setMobile] = useState(false)
   return (
-    <Layout className="layout">
+    <Layout className="layout" style={{margin:"0px 0px 0px 0px"}}>
       <Header className='header'>
-          <div className='' style={{float:'left',margin:"0px 0px 16px 2s4px"}}>
+          <div className='' style={{float:'left',margin:"0px 0px 16px 64px"}}>
             <img src={logo} alt='' />
           </div>
 

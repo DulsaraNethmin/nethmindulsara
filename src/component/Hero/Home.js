@@ -22,7 +22,7 @@ import { Typewriter } from "react-simple-typewriter"
 const Home = () => {
   return (
     <>
-      <section className='hero' id='home'>
+      <section className='hero' id='home'style={{margin:"0px 0px 0px 0px"}}>
         <div className='container f_flex top'>
           <div className='left top'>
             <h3>WELCOME TO MY WORLD</h3>
