@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import "./header.css"
 import logo from "../pic/ND2.png"
 import {FaTimes,FaBars}from "react-icons/fa";
-import { Layout, Menu, Breadcrumb } from 'antd';
+import { Layout, Menu, Breadcrumb,Button } from 'antd';
 const { Header, Content, Footer } = Layout;
 const Navbar = () => {
   // fixed Header
@@ -41,6 +41,9 @@ const Navbar = () => {
               <li>
                 <a href='#contact'  style={{textDecoration:'none', color:'black'}}>contact</a>
               </li>
+              <li>
+              <a href="https://github.com/DulsaraNethmin/DulsaraNethmin/raw/main/Nethmin'sCV.pdf"  style={{textDecoration:'none', color:'black'}}>My CV</a>
+              </li>     
             </ul>
 
             <button className='toggle' onClick={() => setMobile(!Mobile)}>
