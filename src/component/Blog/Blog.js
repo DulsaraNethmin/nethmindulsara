@@ -8,7 +8,7 @@ const Blog = () => {
   const[toggle,setToggle] = useState(false)
   return (
     <>
-      <section className='Portfolio Blog' id='blog'>
+      <section className='Portfolio Blog' id='blog'style={{margin:"150px 0px 0px 0px"}}>
         <div className='container top'>
           <div className='heading text-center'>
             <h4>VISIT MY BLOG AND KEEP YOUR FEEDBACK</h4>

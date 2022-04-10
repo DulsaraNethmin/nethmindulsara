@@ -1,9 +1,10 @@
 import React, { useState } from "react"
 import "./header.css"
-import logo from "../pic/logo101.png"
+import logo from "../pic/ND2.png"
 import {FaTimes,FaBars}from "react-icons/fa";
-
-const Header = () => {
+import { Layout, Menu, Breadcrumb } from 'antd';
+const { Header, Content, Footer } = Layout;
+const Navbar = () => {
   // fixed Header
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header")
@@ -12,14 +13,13 @@ const Header = () => {
   // Toogle Menu
   const [Mobile, setMobile] = useState(false)
   return (
-    <>
-      <header className='header'>
-        <div className='container d_flex'>
-          <div className='logo'>
+    <Layout className="layout">
+      <Header className='header'>
+          <div className='' style={{float:'left',margin:"0px 0px 16px 2s4px"}}>
             <img src={logo} alt='' />
           </div>
 
-          <div className='navlink'>
+          <div className='navlink' style={{float:'right', margin:"10px 70px 0px 30px"}}>
             <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}> 
 
 
@@ -47,10 +47,9 @@ const Header = () => {
               {Mobile ? <FaTimes className="close home-btn"/> : <FaBars className="open"/>}
             </button>
           </div>
-        </div>
-      </header>
-    </>
+      </Header>
+    </Layout>
   )
 }
 
-export default Header
+export default Navbar;
