@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import {FaTimes,FaThumbsUp,FaChevronRight,FaHeart} from 'react-icons/fa'
+import './Portfolio.css'
 
 const Card = (props) => {
   const [modal, setModal] = useState(false)
@@ -26,41 +27,12 @@ const Card = (props) => {
           </label>
         </div>
         <div className='title'>
-          <h2 onClick={()=>{window.open(props.link,'_blank')}}>{props.title}</h2>
+          <h2 onClick={()=>{window.open(props.link,'_blank')}} style={{textDecoration:"none"}}>{props.title}</h2>
           <a href='#popup' className='arrow' onClick={toggleModal}>
             <FaTimes/>
           </a>
         </div>
       </div>
-
-      {/* Popup box */}
-{/*      {modal && (
-        <div className='modal'>
-          <div onClick={toggleModal} className='overlay'></div>
-          <div className='modal-content d_flex'>
-            <div className='modal-img left'>
-              <img src={props.image} alt='' />
-            </div>
-            <div className='modal-text right'>
-              <span>Featured - Design</span>
-              <h1>{props.title}</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
-              <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
-              <div className='button f_flex mtop'>
-                <button className='btn_shadow'>
-                  LIKE THIS <FaThumbsUp/>
-                </button>
-                <button className='btn_shadow' onClick={()=>{window.open(props.link,'_blank')}}>
-                  View Project<FaChevronRight/>
-                </button>
-              </div>
-              <button className='close-modal btn_shadow' onClick={toggleModal}>
-                <FaTimes/>
-              </button>
-            </div>
-          </div>
-        </div>
-      )}*/}
     </>
   )
 }

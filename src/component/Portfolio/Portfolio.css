@@ -149,4 +149,8 @@ body.active-modal {
   .modal .left {
     padding: 0;
   }
+
+  .img{
+    display: none;
+  }
 }

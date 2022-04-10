@@ -47,7 +47,7 @@ const Navbar = () => {
             </ul>
 
             <button className='toggle' onClick={() => setMobile(!Mobile)}>
-              {Mobile ? <FaTimes className="close home-btn"/> : <FaBars className="open"/>}
+              {Mobile ? <FaTimes className="close home-btn" style={{width:"30px",height:"30px"}}/> : <FaBars className="open"/>}
             </button>
           </div>
       </Header>
